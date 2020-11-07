@@ -1,4 +1,4 @@
-const infoNavegador = new {
+const infoNavegador = {
     nombre: navigator.appName,
     idioma: navigator.language,
     version: navigator.appVersion,

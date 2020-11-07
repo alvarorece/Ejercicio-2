@@ -1,3 +1,3 @@
-let title = document.createElement('h1');
-title.appendChild(document.createTextNode(infoNavegador.idioma));
+title = document.createElement('h2');
+title.appendChild(document.createTextNode('Idioma: '+infoNavegador.idioma));
 document.body.appendChild(title);
